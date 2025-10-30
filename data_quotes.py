@@ -33,7 +33,16 @@ Task 2
 
 Mencari 10 quote percintaan dan memasukkannya kedalam list
 """
-percintaan = ["cinta1", "cinta2"]
+percintaan = ["Orang yang benar-benar mencintaimu tidak akan membuatmu merasa harus berjuang sendirian", 
+              "Cinta sejati tidak mencari kesempurnaan, tapi menerima kekurangan dengan tulus",
+              "Jatuh cinta itu mudah, tapi menjaga cinta itu seni", 
+              "Cinta bukan buta, tapi membuat kita melihat dengan cara yang berbeda",
+              "Ketika kamu mencintai seseorang, kamu mencintai versinya yang sebenarnya, bukan yang kamu harapkan",
+              "Tidak semua yang mencintaimu bisa bersamamu, tapi mereka tetap bagian dari ceritamu",
+              "Orang yang mencintaimu dengan tulus akan tetap tinggal, bahkan setelah melihat sisi terburukmu",
+              "Cinta bukan permainan, tapi perjalanan panjang dua hati menuju satu tujuan",
+              "Jangan mencari cinta yang sempurna, carilah cinta yang membuatmu merasa cukup",
+              "Cinta sejati adalah ketika kamu bisa mencintai tanpa syarat, tanpa takut, tanpa akhir"]
 
 """@@@
 Task 3
