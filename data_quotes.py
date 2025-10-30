@@ -17,16 +17,16 @@ Task 1
 
 Mencari 10 quote agama dan memasukkannya kedalam list
 """
-agama1 = ["Kadang Allah nggak langsung kasih yang kita mau, karena Dia tahu yang kita mau belum tentu kita butuh. Tapi yang pasti, setiap penundaan dari Allah itu selalu ada kebaikan di baliknya."]
-agama2 = ["Tenang aja, nggak semua orang harus ngerti perjuanganmu. Cukup Allah yang tahu seberapa keras kamu berusaha dan seberapa sering kamu berdoa diam-diam."]
-agama3 = ["Allah nggak pernah jauh, cuma kita aja yang sering lupa arah. Balik aja pelan-pelan, Dia selalu siap nerima kapan pun kamu datang."]
-agama4 = ["Kadang Allah kasih ujian bukan buat nyakitin, tapi buat ngingetin. Supaya kita berhenti sandar ke manusia dan balik lagi bersandar ke Dia yang Maha Kuat."]
-agama5 = ["Hidup itu nggak harus selalu lancar. Ada saatnya jatuh biar tahu rasanya minta tolong ke Allah, dan ada saatnya bahagia biar tahu rasanya bersyukur sungguh-sungguh."]
-agama6 = ["Doa nggak butuh kata indah. Cukup dari hati yang tulus, karena Allah paham isi hati sebelum kamu sempat mengucap apa-apa."]
-agama7 = ["Jangan buru-buru iri sama jalan orang lain. Allah punya waktu terbaik buat setiap hamba-Nya, dan waktumu juga pasti datang, sabar aja."]
-agama8 = ["Kalau kamu lagi capek sama hidup, ingat: Allah nggak janji hidupmu bakal mudah, tapi Dia janji bakal selalu ada buat kamu yang sabar dan percaya."]
-agama9 = ["Kadang yang bikin kita tenang bukan karena masalahnya hilang, tapi karena kita udah belajar nyerahin semuanya ke Allah."]
-agama10 = ["Hidup ini cuma sementara, jadi jangan terlalu sibuk ngejar dunia sampai lupa istirahat di sujud."]
+agama1 = ["Kadang Allah nggak langsung kasih yang kita mau, karena Dia tahu yang kita mau belum tentu kita butuh. Tapi yang pasti, setiap penundaan dari Allah itu selalu ada kebaikan di baliknya.",
+          "Tenang aja, nggak semua orang harus ngerti perjuanganmu. Cukup Allah yang tahu seberapa keras kamu berusaha dan seberapa sering kamu berdoa diam-diam.",
+          "Jangan pernah merasa sendirian, karena Allah selalu ada di sampingmu, bahkan saat kamu merasa paling jauh dari-Nya.",
+          "Hidup ini penuh ujian, tapi ingatlah bahwa setiap ujian dari Allah itu ada maksud baiknya. Mungkin Dia ingin menguatkanmu atau mengajarkanmu sesuatu yang berharga.",
+          "Jangan takut gagal, karena setiap kegagalan adalah langkah menuju keberhasilan yang Allah rencanakan untukmu.",
+          "Saat kamu merasa lelah dan putus asa, ingatlah bahwa Allah selalu mendengar doa hamba-Nya yang berserah diri.",
+          "Jangan pernah meremehkan kekuatan doa, karena doa adalah senjata paling ampuh yang diberikan Allah kepada hamba-Nya.",
+          "Ingatlah bahwa Allah tidak pernah tidur, Dia selalu mengawasi dan menjaga hamba-Nya yang beriman.",
+          "Jangan biarkan dunia mengalihkan perhatianmu dari tujuan akhirat. Fokuslah pada ibadah dan kebaikan yang akan membawa kebahagiaan abadi.",
+          "Setiap hari adalah kesempatan baru untuk mendekatkan diri kepada Allah. Manfaatkan waktu sebaik-baiknya untuk beribadah dan berbuat baik."]
 
 """@@@
 Task 2
