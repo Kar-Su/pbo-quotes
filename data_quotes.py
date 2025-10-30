@@ -17,7 +17,7 @@ Task 1
 
 Mencari 10 quote agama dan memasukkannya kedalam list
 """
-agama1 = ["Kadang Allah nggak langsung kasih yang kita mau, karena Dia tahu yang kita mau belum tentu kita butuh. Tapi yang pasti, setiap penundaan dari Allah itu selalu ada kebaikan di baliknya.",
+agama = ["Kadang Allah nggak langsung kasih yang kita mau, karena Dia tahu yang kita mau belum tentu kita butuh. Tapi yang pasti, setiap penundaan dari Allah itu selalu ada kebaikan di baliknya.",
           "Tenang aja, nggak semua orang harus ngerti perjuanganmu. Cukup Allah yang tahu seberapa keras kamu berusaha dan seberapa sering kamu berdoa diam-diam.",
           "Jangan pernah merasa sendirian, karena Allah selalu ada di sampingmu, bahkan saat kamu merasa paling jauh dari-Nya.",
           "Hidup ini penuh ujian, tapi ingatlah bahwa setiap ujian dari Allah itu ada maksud baiknya. Mungkin Dia ingin menguatkanmu atau mengajarkanmu sesuatu yang berharga.",
