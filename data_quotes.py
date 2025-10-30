@@ -49,4 +49,13 @@ Task 3
 
 Mencari 10 quote politik dan memasukkannya kedalam list
 """
-politik = ["politik1", "politik2"]
+politik = ["Politik adalah seni yang mungkin",
+           "Kekuasaan cenderung merusak, dan kekuasaan absolut merusak secara absolut",
+           "Demokrasi adalah dua serigala dan seekor domba yang memilih menu makan malam",
+           "Seorang politisi memikirkan pemilu berikutnya; seorang negarawan memikirkan generasi berikutnya",
+           "Ketidakpedulian rakyat adalah tiket emas bagi tiran",
+           "Hukum diciptakan untuk orang miskin, keadilan diciptakan untuk orang kaya",
+           "Tujuan politik adalah kebebasan",
+           "Tidak ada kebenaran dalam politik, hanya kepentingan",
+           "Masyarakat mendapatkan pemerintah yang layak mereka dapatkan",
+           "Politik adalah seni mencegah orang ikut campur dalam urusan mereka sendiri"]
