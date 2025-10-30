@@ -6,13 +6,7 @@ user hanya perlu menjalankan main.py
 """
 
 from random import randint
-"""@@@
-Task Tambahan (1, 2, 3)
-
-Untuk rekan-rekan yang mengerjakan dibagian data_quotes.py
-tolong import hasil kerjaan kalian kedalam main.py
-"""
-from data_quotes import (...)
+from data_quotes import (agama, percintaan, politik)
 
 def main():
     """PANDUAN
