@@ -17,7 +17,7 @@ Task 1
 
 Mencari 10 quote agama dan memasukkannya kedalam list
 """
-agama = ["agama1", "agama2"]
+agama = ["agama1", "agama2", "agama3"]
 
 """@@@
 Task 2
