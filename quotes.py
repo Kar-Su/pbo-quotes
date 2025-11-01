@@ -60,8 +60,8 @@ def main():
     iterasi = int(input("Berapa kali iterasi (percobaan acak) ingin dijalankan? "))
     for i in range(iterasi):
         print(f"Quotes ke {i + 1}")
-        random_generator = randint(0, len(data) - 1)
-        print(data[random_generator])
+        random_generator = randint(1,5)
+        print(data(random_generator))
 
 if __name__ == "__main__":
     """PANDUAN
