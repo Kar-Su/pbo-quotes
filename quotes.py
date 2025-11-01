@@ -40,19 +40,16 @@ def main():
 
     match kategori:
         case "agama":
-            angka_random = random.randint(1, 5)
-            return agama(angka_random)
+
         case "percintaan":
-            angka_random = random.randint(1, 5)
-            return percintaan(angka_random)
+
         case "politik":
-            angka_random = random.randint(1, 5)
-            return politik(angka_random)
+
         case _:
-            return "Kategori tidak ditemukan. Pilih : agama, percintaan, politik"
+            print ("Kategori tidak ditemukan. Pilih : agama, percintaan, politik")
     k_input = input("Masukkan kategori quotes (Agama, Percintaan, Politik): ")
     print("\nQuotes pilihanmu:")
-    Sprint(quotes(k_input))
+    quotes(k_input)
     
     
     """@@@
