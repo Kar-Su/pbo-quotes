@@ -6,7 +6,7 @@ user hanya perlu menjalankan main.py
 """
 
 from random import randint
-from data_quotes import (agama, percintaan, politik)
+from data_quotes import (agama, percintaan, politik, salah)
 
 def main():
     """PANDUAN
@@ -44,7 +44,7 @@ def main():
         case "...":
             data = ...
         case _:
-            data = [None]
+            data = salah
             print("Jenis yang anda ketikkan tidak ada [agama, percintaan, politik]")
     
     
