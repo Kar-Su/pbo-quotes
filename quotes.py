@@ -57,12 +57,12 @@ def main():
         Setiap iterasi berjalan, maka quotenya berbeda - beda
         menggunakan random generator(randint)
     """
-    iterasi = ...
-    for i in ...:
-        print(f"Quotes ke ...")
-        random_generator = ...
-        print(...)
-    
+    iterasi = int(input("Berapa kali iterasi (percobaan acak) ingin dijalankan? "))
+    for i in range(iterasi):
+        print(f"Quotes ke {i + 1}")
+        random_generator = randint(1,5)
+        print(data(random_generator))
+
 if __name__ == "__main__":
     """PANDUAN
     if __name__ == "__main__":
