@@ -35,17 +35,24 @@ def main():
     Note:
         Metode boleh diubah, akan tetapi output kerjaannya harus sama.
     """
-    jenis_quotes = ...
-    match ...:
-        case "...":
-            data = ...
-        case "...":
-            data = ...
-        case "...":
-            data = ...
+    def quotes(kategori):
+    kategori = kategori.lower()
+
+    match kategori:
+        case "agama":
+            angka_random = random.randint(1, 5)
+            return agama(angka_random)
+        case "percintaan":
+            angka_random = random.randint(1, 5)
+            return percintaan(angka_random)
+        case "politik":
+            angka_random = random.randint(1, 5)
+            return politik(angka_random)
         case _:
-            data = salah
-            print("Jenis yang anda ketikkan tidak ada [agama, percintaan, politik]")
+            return "Kategori tidak ditemukan. Pilih : agama, percintaan, politik"
+    k_input = input("Masukkan kategori quotes (Agama, Percintaan, Politik): ")
+    print("\nQuotes pilihanmu:")
+    Sprint(quotes(k_input))
     
     
     """@@@
