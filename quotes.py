@@ -6,7 +6,7 @@ user hanya perlu menjalankan main.py
 """
 
 from random import randint
-from data_quotes import (agama, percintaan, politik, salah)
+from data_quotes import agama, percintaan, politik, salah
 
 def main():
     """PANDUAN
@@ -36,19 +36,31 @@ def main():
         Metode boleh diubah, akan tetapi output kerjaannya harus sama.
     """
     def quotes(kategori):
-    kategori = kategori.lower()
+        kategori = kategori.lower()
 
-    match kategori:
-        case "agama":
+        match kategori:
+            case "agama":
+                iterasi = int(input("Berapa kali iterasi (percobaan acak) ingin dijalankan? "))
+                for i in range(iterasi):
+                    print(f"\nQuotes ke-{i + 1}:")
+                    random_generator = randint(1, 5)
+                    agama(random_generator)
+            case "percintaan":
+                iterasi = int(input("Berapa kali iterasi (percobaan acak) ingin dijalankan? "))
+                for i in range(iterasi):
+                    print(f"\nQuotes ke-{i + 1}:")
+                    random_generator = randint(1, 5)
+                    percintaan(random_generator)
+            case "politik":
+                iterasi = int(input("Berapa kali iterasi (percobaan acak) ingin dijalankan? "))
+                for i in range(iterasi):
+                    print(f"\nQuotes ke-{i + 1}:")
+                    random_generator = randint(1, 5)
+                    politik(random_generator)
+            case _:
+                print("Kategori tidak ditemukan. Pilih: agama, percintaan, politik")
 
-        case "percintaan":
-
-        case "politik":
-
-        case _:
-            print ("Kategori tidak ditemukan. Pilih : agama, percintaan, politik")
     k_input = input("Masukkan kategori quotes (Agama, Percintaan, Politik): ")
-    print("\nQuotes pilihanmu:")
     quotes(k_input)
     
     
@@ -61,11 +73,13 @@ def main():
         Setiap iterasi berjalan, maka quotenya berbeda - beda
         menggunakan random generator(randint)
     """
+    """
     iterasi = int(input("Berapa kali iterasi (percobaan acak) ingin dijalankan? "))
     for i in range(iterasi):
         print(f"Quotes ke {i + 1}")
         random_generator = randint(1,5)
         print(data(random_generator))
+    """
 
 if __name__ == "__main__":
     """PANDUAN
