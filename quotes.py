@@ -34,7 +34,7 @@ def main():
     Kegunaan dari case _ adalah sebagai kasus selain dari yang sudah kita definisikan.
     Ketika user salah menginputkan jenisnya maka otomatis akan langsung keluar dari program.
     """
-    jenis_quotes = input("jenis: ").lower()
+    jenis_quotes = input("Masukkan kategori quotes (Agama, Percintaan, Politik): ").lower()
     match jenis_quotes:
         case "agama":
             data = agama
