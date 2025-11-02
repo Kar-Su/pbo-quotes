@@ -59,7 +59,7 @@ def main():
     for i in range(iterasi):
         print(f"Quotes ke {i + 1}")
         random_generator = randint(1,5)
-        print(data(random_generator))
+        data(random_generator)
     
 
 # Menjalankan fungsi main
