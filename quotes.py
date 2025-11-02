@@ -55,7 +55,7 @@ def main():
     
     Kegunaan dari randint(1, 5) yaitu menghasilkan sebuah angka acak dari 1,2,3,4,5
     """
-    iterasi = int(input("Berapa kali iterasi (percobaan acak) ingin dijalankan? "))
+    iterasi = int(input("Jumlah quotes yang ingin anda tampilkan: "))
     for i in range(iterasi):
         print(f"Quotes ke {i + 1}")
         random_generator = randint(1,5)
