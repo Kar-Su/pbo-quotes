@@ -1,4 +1,4 @@
-"""PANDUAN
+"""PANDUAN UTAMA
 data_quotes.py
 
 Tempat penyimpanan data quotes
@@ -6,17 +6,24 @@ dimana setiap jenis quote ada 10 quote (Jangan lebih dan kurang).
 
 
 Variable:
-    agama (list[str...])        : Tempat penyimpanan quote agama
-    percintaan (list[str...])   : Tempat penyimpanan quote percintaan
-    politik (list[str...])      : Tempat penyimpanan quote politik
+    agama (func)        : Tempat penyimpanan quote agama
+    percintaan (func)   : Tempat penyimpanan quote percintaan
+    politik (func)      : Tempat penyimpanan quote politik
 """
 
+"""PANDUAN 1
 
-"""@@@
-Task 1
+fungsi agama, percintaan, politik memiliki logic yang sama
+yang membedakannya hanyalah isi quotesnya.
 
-Mencari 10 quote agama dan memasukkannya kedalam list
+Fungsi yang disebutkan tadi nantinya akan digunakan di quotes.py/PANDUAN1
+yang namanya akan berubah (di assign) kedalam variable yang bernama data
+Setelah itu nantinya pada quotes.py/PANDUAN2 variable data akan dipanggil.
+
+Logicnya menggunakan match case untuk membuat kondisi khusus sesuai dengan angka_random yang sudah digenerate
+
 """
+
 def agama(angka_random):
     match angka_random:
         case 1:
@@ -30,11 +37,7 @@ def agama(angka_random):
         case 5:
             print("Hidup ini penuh ujian, tapi ingatlah bahwa setiap ujian dari Allah itu ada maksud baiknya. Mungkin Dia ingin menguatkanmu atau mengajarkanmu sesuatu yang berharga.")
 
-"""@@@
-Task 2
 
-Mencari 10 quote percintaan dan memasukkannya kedalam list
-"""
 def percintaan(angka_random):
     match angka_random:
         case 1:
@@ -48,11 +51,7 @@ def percintaan(angka_random):
         case 5:
             print("Ketika kamu mencintai seseorang, kamu mencintai versinya yang sebenarnya, bukan yang kamu harapkan")
 
-"""@@@
-Task 3
 
-Mencari 10 quote politik dan memasukkannya kedalam list
-"""
 def politik(angka_random):
     match angka_random:
         case 1:
@@ -65,6 +64,15 @@ def politik(angka_random):
             print("Seorang politisi memikirkan pemilu berikutnya; seorang negarawan memikirkan generasi berikutnya")
         case 5:
             print("Ketidakpedulian rakyat adalah tiket emas bagi tiran")
-            
-def salah(angka_random):
+
+
+"""PANDUAN 2
+
+Fungsi ini tidak menghasilkan apapun karena ada kata pass
+Yang dimana kegunaan pass adalah untuk mengisi sebuah fungsi yang kosong
+
+Hal ini berguna ketika di quotes.py/PANDUAN 1 user salah memasukkan jenis quotes
+maka data akan di assign dengan fungsi salah yang berarti fungsi kosong.
+"""            
+def salah():
     pass

@@ -9,72 +9,59 @@ from random import randint
 from data_quotes import (agama, percintaan, politik, salah)
 
 def main():
-    """PANDUAN
+    """PANDUAN UTAMA
     Fungsi main
     
     Sebuah fungsi utama dari quotes generator
     
     variable:
         jenis_quotes(str.lower())   : Sebuah inputan user untuk menentukan jenis quote
-        data(list[str...])          : data quote dari data_quotes.py yang disesuaikan dengan jenis quote
+        data(func)                  : data quote dari data_quotes.py yang disesuaikan dengan jenis quote
         iterasi(int)                : Sebuah inputan user untuk menentukan berapa banyak quote yang akan ditampilkan
         random_generator(int)       : Sebuah angka integer yang ditentukan dari random generator(randint)
     """
     
+
+    """PANDUAN 1
     
-    """@@@
-    Task 4
+    Pada section dibawah ini berguna untuk memfilter data mana yang kita pakai
+    menggunakan switch case. Kegunaan switch case mirip seperti IF-ELSE.
+    data berupa sebuah fungsi yang ada di file data_quotes.py yang sudah di import di awal line
     
-    Membuat sebuah kode untuk menentukan jenis quote menggunakan switch case,
-    dan menentukan data mana yang akan dipakai,
-    
-    Fitur:
-        Huruf besar dan kecil tidak mempengaruhi hasil inputannya.
-        Contoh Agama,AGama,PERCIntaan,politik,POLITIK.
-        
-    Note:
-        Metode boleh diubah, akan tetapi output kerjaannya harus sama.
+    Contoh penggunaan data (range 1-5):
+        data(1), data(5)
+
+    Kegunaan dari case _ adalah sebagai kasus selain dari yang sudah kita definisikan.
+    Ketika user salah menginputkan jenisnya maka otomatis akan langsung keluar dari program.
     """
-    jenis_quotes = ...
-    match ...:
-        case "...":
-            data = ...
-        case "...":
-            data = ...
-        case "...":
-            data = ...
+    jenis_quotes = input("jenis: ").lower()
+    match jenis_quotes:
+        case "agama":
+            data = agama
+        case "percintaan":
+            data = percintaan
+        case "politik":
+            data = politik
         case _:
             data = salah
             print("Jenis yang anda ketikkan tidak ada [agama, percintaan, politik]")
+            exit()
     
     
-    """@@@
-    Task 5
+    """PANDUAN 2
     
-    Membuat sebuah kode untuk menentukan seberapa banyak quote yang muncul.
+    Pada section dibawah ini berguna untuk melakukan perulangan sesuai kemauan dari user
+    variable iterasi merupakan jumlah perulangan yang akan dilakukan (Perlu dirubah ke int dulu)
     
-    Fitur:
-        Setiap iterasi berjalan, maka quotenya berbeda - beda
-        menggunakan random generator(randint)
+    Kegunaan dari randint(1, 5) yaitu menghasilkan sebuah angka acak dari 1,2,3,4,5
     """
     iterasi = int(input("Berapa kali iterasi (percobaan acak) ingin dijalankan? "))
     for i in range(iterasi):
         print(f"Quotes ke {i + 1}")
         random_generator = randint(1,5)
         print(data(random_generator))
+    
 
-if __name__ == "__main__":
-    """PANDUAN
-    if __name__ == "__main__":
-    
-    Melakukan cek apakah nama file ini di sistem python itu "__main__".
-    ketika namanya itu "__main__" maka artinya quotes.py itu merupakan file utama yang sedang dijalankan.
-    
-    Sehingga ketika quotes.py di import di file lain(contoh.py) maka section if ini tidak akan berjalan.
-    
-    Magic Variable
-        __name__: merupakan nama file di dalam sistem python.
-        __main__: merupakan nama file yang sedang dijalankan
-    """
-    print("Topik 2 - Quotes Generator")
-    main()
+# Menjalankan fungsi main
+print("Topik 2 - Quotes Generator")
+main()
